@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 import Logo from "../logo";
-import NavItems from "./nav-items";
+import NavItems from "./comps/nav-item";
 
 const NavbarContainer = styled.div`
   min-height: 68px;

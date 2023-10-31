@@ -1,7 +1,7 @@
 import { useMediaQuery } from "react-responsive";
-import { BurgerStyle, ListContainer, NavItem } from "./styles";
+import { BurgerStyle, ListContainer, NavItem } from "../../styles";
 import { slide as Menu } from "react-burger-menu";
-import { SCREENS } from "../responsive";
+import { SCREENS } from "../../../responsive";
 
 const NavItems = () => {
   const isMobile = useMediaQuery({ maxWidth: SCREENS.sm });
@@ -44,10 +44,3 @@ const NavItems = () => {
   );
 };
 export default NavItems;
-// {NavItemsList.map((item, i) => {
-//   return (
-//     <NavItem menu key={i}>
-//       <a href="#">{item}</a>
-//     </NavItem>
-//   );
-// })}
