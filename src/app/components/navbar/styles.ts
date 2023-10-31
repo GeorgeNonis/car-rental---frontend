@@ -11,8 +11,8 @@ export const ListContainer = styled.ul`
 export const NavItem = styled.li<{ menu?: any }>`
   ${tw`
     text-sm
-    md:text-base
     text-black
+    md:text-base
     font-medium
     mr-1
     md:mr-5
