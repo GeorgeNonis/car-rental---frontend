@@ -2,6 +2,7 @@ import BookCard from "../../components/book-card";
 import BookingSteps from "../../components/booking-steps";
 import { Marginer } from "../../components/marginer";
 import Navbar from "../../components/navbar";
+import AboutUs from "./comps/about-us";
 import TopSection from "./comps/top-section";
 import { PageContainer } from "./home-page.styles";
 
@@ -14,6 +15,8 @@ const HomePage = () => {
       <BookCard />
       <Marginer direction="vertical" margin={"8em"} />
       <BookingSteps />
+      <Marginer direction="vertical" margin={"8em"} />
+      <AboutUs />
     </PageContainer>
   );
 };
