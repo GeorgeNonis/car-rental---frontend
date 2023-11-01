@@ -48,7 +48,7 @@ const BookCard = () => {
   const startCalendarIcon = isStartCalendarOpen ? faCaretDown : faCaretUp;
 
   const returnCalendar = isReturnCalendarOpen && (
-    <DateCalendar value={returnDate} onChange={setReturnDate as any} />
+    <DateCalendar value={returnDate} onChange={setReturnDate as any} offset />
   );
   const returnCalendarIcon = isReturnCalendarOpen ? faCaretDown : faCaretUp;
 

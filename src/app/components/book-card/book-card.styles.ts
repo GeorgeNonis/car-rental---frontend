@@ -56,6 +56,7 @@ export const Name = styled.span`
        text-xs
        md:text-sm
        cursor-pointer
+       select-none
     `}
 `;
 
