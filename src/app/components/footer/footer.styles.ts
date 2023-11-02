@@ -103,8 +103,13 @@ export const ListItem = styled.li`
     text-sm
   text-white
     transition-all
-    hover:text-gray-200
+    
   `};
+    &:hover {
+      ${tw`
+    text-gray-200
+    `}
+    }
   }
 `;
 

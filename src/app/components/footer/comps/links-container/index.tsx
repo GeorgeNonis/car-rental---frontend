@@ -7,7 +7,11 @@ import {
 import { LinksContainerProps } from "./links-container.types";
 
 const LinksContainer = ({ links, title }: LinksContainerProps) => {
-  const mappedLinks = links.map((link) => <ListItem>{link}</ListItem>);
+  const mappedLinks = links.map((link) => (
+    <ListItem>
+      <a href="#">{link}</a>
+    </ListItem>
+  ));
   return (
     <SectionContainer>
       <HeaderTitle>{title}</HeaderTitle>
