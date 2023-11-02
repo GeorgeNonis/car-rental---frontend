@@ -4,6 +4,6 @@ export interface CarProps {
   mileage: string;
   gearType: string;
   dailyPrice: string;
-  monthly: string;
+  monthlyPrice: string;
   gas: string;
 }

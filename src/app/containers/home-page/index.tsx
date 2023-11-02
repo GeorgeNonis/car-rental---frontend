@@ -3,6 +3,7 @@ import BookingSteps from "../../components/booking-steps";
 import { Marginer } from "../../components/marginer";
 import Navbar from "../../components/navbar";
 import AboutUs from "./comps/about-us";
+import TopCars from "./comps/top-cars";
 import TopSection from "./comps/top-section";
 import { PageContainer } from "./home-page.styles";
 
@@ -17,6 +18,8 @@ const HomePage = () => {
       <BookingSteps />
       <Marginer direction="vertical" margin={"8em"} />
       <AboutUs />
+      <Marginer direction="vertical" margin={"8em"} />
+      <TopCars />
     </PageContainer>
   );
 };
