@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../logo";
 import {
   AboutContainer,
@@ -6,28 +5,21 @@ import {
   BottomContainer,
   CopyrightText,
   FooterContainer,
-  HeaderTitle,
-  HorizontalContainer,
   InnerContainer,
-  LinksList,
-  ListItem,
-  RedIcon,
-  SectionContainer,
-  SmallText,
 } from "./footer.styles";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import LinksContainer from "./comps/links-container";
+import InfoContainer from "./comps/info-container";
 
 const Footer = () => {
-  const ourLinks = ["Home", "ABout Us", "Services", "Models", "Blog"].map(
-    (link) => <ListItem>{link}</ListItem>
-  );
+  const ourLinks = ["Home", "ABout Us", "Services", "Models", "Blog"];
   const otherLinks = [
     "FAQ",
     "Contact Us",
     "Support",
     "Privacy Policy",
     "Terms & Conditions",
-  ].map((link) => <ListItem>{link}</ListItem>);
+  ];
   return (
     <FooterContainer>
       <InnerContainer>
@@ -39,32 +31,14 @@ const Footer = () => {
             service.
           </AboutText>
         </AboutContainer>
-        <SectionContainer>
-          <HeaderTitle>Our Links</HeaderTitle>
-          <LinksList>{ourLinks}</LinksList>
-        </SectionContainer>
-        <SectionContainer>
-          <HeaderTitle>Other Links</HeaderTitle>
-          <LinksList>{otherLinks}</LinksList>
-        </SectionContainer>
-        <SectionContainer>
-          <HeaderTitle>Call Now</HeaderTitle>
-          <HorizontalContainer>
-            <RedIcon>
-              <FontAwesomeIcon icon={faPhoneAlt} />
-            </RedIcon>
-            <SmallText>+91 555-234-8469</SmallText>
-          </HorizontalContainer>
-        </SectionContainer>
-        <SectionContainer>
-          <HeaderTitle>Mail</HeaderTitle>
-          <HorizontalContainer>
-            <RedIcon>
-              <FontAwesomeIcon icon={faEnvelope} />
-            </RedIcon>
-            <SmallText>info@yourcar.com</SmallText>
-          </HorizontalContainer>
-        </SectionContainer>
+        <LinksContainer links={ourLinks} title="Our Links" />
+        <LinksContainer links={otherLinks} title="Other Links" />
+        <InfoContainer
+          icon={faPhoneAlt}
+          info="Call Now"
+          title="+91 555-234-8469"
+        />
+        <InfoContainer icon={faEnvelope} info="info@yourcar.com" title="Mail" />
       </InnerContainer>
       <BottomContainer>
         <CopyrightText>
