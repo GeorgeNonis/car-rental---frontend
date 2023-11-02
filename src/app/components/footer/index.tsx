@@ -35,8 +35,8 @@ const Footer = () => {
         <LinksContainer links={otherLinks} title="Other Links" />
         <InfoContainer
           icon={faPhoneAlt}
-          info="Call Now"
-          title="+91 555-234-8469"
+          info="+91 555-234-8469"
+          title="Call Now"
         />
         <InfoContainer icon={faEnvelope} info="info@yourcar.com" title="Mail" />
       </InnerContainer>
