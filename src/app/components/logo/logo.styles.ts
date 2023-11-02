@@ -10,13 +10,14 @@ export const LogoContainer = styled.div`
 
 export const LogoText = styled.div`
   ${tw`
-        text-xl
-        md:text-2xl
-        font-bold
-        text-black
-        m-1
-    `}
-`;
+  text-xl
+  md:text-2xl
+  font-bold
+  text-black
+  m-1
+  `};
+  ${({ color }: any) => (color === "white" ? tw`text-white` : tw`text-black`)}
+` as any;
 
 export const Image = styled.div`
   ${tw`h-6 md:h-9`}

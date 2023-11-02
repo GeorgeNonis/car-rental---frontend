@@ -1,5 +1,6 @@
 import BookCard from "../../components/book-card";
 import BookingSteps from "../../components/booking-steps";
+import Footer from "../../components/footer";
 import { Marginer } from "../../components/marginer";
 import Navbar from "../../components/navbar";
 import AboutUs from "./comps/about-us";
@@ -20,6 +21,7 @@ const HomePage = () => {
       <AboutUs />
       <Marginer direction="vertical" margin={"8em"} />
       <TopCars />
+      <Footer />
     </PageContainer>
   );
 };
