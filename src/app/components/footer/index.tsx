@@ -18,6 +18,16 @@ import {
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
+  const ourLinks = ["Home", "ABout Us", "Services", "Models", "Blog"].map(
+    (link) => <ListItem>{link}</ListItem>
+  );
+  const otherLinks = [
+    "FAQ",
+    "Contact Us",
+    "Support",
+    "Privacy Policy",
+    "Terms & Conditions",
+  ].map((link) => <ListItem>{link}</ListItem>);
   return (
     <FooterContainer>
       <InnerContainer>
@@ -31,43 +41,11 @@ const Footer = () => {
         </AboutContainer>
         <SectionContainer>
           <HeaderTitle>Our Links</HeaderTitle>
-          <LinksList>
-            <ListItem>
-              <a href="#">Home</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">About Us</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Services</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Models</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Blog</a>
-            </ListItem>
-          </LinksList>
+          <LinksList>{ourLinks}</LinksList>
         </SectionContainer>
         <SectionContainer>
           <HeaderTitle>Other Links</HeaderTitle>
-          <LinksList>
-            <ListItem>
-              <a href="#">FAQ</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Contact Us</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Support</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Privacy Policy</a>
-            </ListItem>
-            <ListItem>
-              <a href="#">Terms &amp; Conditions</a>
-            </ListItem>
-          </LinksList>
+          <LinksList>{otherLinks}</LinksList>
         </SectionContainer>
         <SectionContainer>
           <HeaderTitle>Call Now</HeaderTitle>
