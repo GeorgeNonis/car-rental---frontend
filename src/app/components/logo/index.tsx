@@ -1,13 +1,18 @@
 import CarLogo from "../../../assets/images/car-logo.png";
+import CarLogoDarkImg from "../../../assets/images/car-logo-dark.png";
 import { Image, LogoContainer, LogoText } from "./logo.styles";
+import { LogoProps } from "./logo.types";
 
-const Logo = () => {
+const Logo = ({ color, bgColor }: LogoProps) => {
   return (
     <LogoContainer>
       <Image>
-        <img src={CarLogo} alt="car logo" />
+        <img
+          src={bgColor === "dark" ? CarLogoDarkImg : CarLogo}
+          alt="car logo"
+        />
       </Image>
-      <LogoText>Yourcar.</LogoText>
+      <LogoText color={color || "dark"}>Yourcar.</LogoText>
     </LogoContainer>
   );
 };

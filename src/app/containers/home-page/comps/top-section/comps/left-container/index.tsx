@@ -1,3 +1,4 @@
+import { topSectionText, topSectionTitle } from "../../../../../../../config";
 import Button from "../../../../../../components/button";
 import {
   ButtonsContainer,
@@ -9,12 +10,8 @@ import {
 const LeftSide = () => {
   return (
     <LeftContainer>
-      <Slogan>Rent The Best Quality Car's With Us</Slogan>
-      <Description>
-        Always choose the best car from our local stores or order it remotely at
-        the best price for you and get the best quality cars for as long as you
-        like
-      </Description>
+      <Slogan>{topSectionTitle}</Slogan>
+      <Description>{topSectionText}</Description>
       <ButtonsContainer>
         <Button>Book Your Ride</Button>
         <Button theme="filled">Sell Your Car</Button>
