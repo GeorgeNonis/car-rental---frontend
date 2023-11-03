@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/car-rental---frontend/static/css/main.ee841be1.css",
+    "main.js": "/car-rental---frontend/static/js/main.c37c65a8.js",
+    "static/js/787.e778e39e.chunk.js": "/car-rental---frontend/static/js/787.e778e39e.chunk.js",
+    "static/media/jeep.png": "/car-rental---frontend/static/media/jeep.18461d13eb608d076dda.png",
+    "static/media/mclaren-orange-big.png": "/car-rental---frontend/static/media/mclaren-orange-big.46e3c615f2d4c2513ce5.png",
+    "index.html": "/car-rental---frontend/index.html",
+    "static/media/blob.svg": "/car-rental---frontend/static/media/blob.1e0bff3a3abf52dbf26af519c7a12408.svg",
+    "main.ee841be1.css.map": "/car-rental---frontend/static/css/main.ee841be1.css.map",
+    "main.c37c65a8.js.map": "/car-rental---frontend/static/js/main.c37c65a8.js.map",
+    "787.e778e39e.chunk.js.map": "/car-rental---frontend/static/js/787.e778e39e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee841be1.css",
+    "static/js/main.c37c65a8.js"
+  ]
+}
