@@ -28,14 +28,27 @@ To get a local copy up and running follow these simple steps.
 
    ```
 
-2. cd car-rental
+2. Navigate to the project directory:
 
-3. npm install
+```
+   bash cd car-rental
+```
 
-4. npm start
+````
 
-   Usage 🖥️
-   After starting the development server, the application will be available at http://localhost:3000/. Open it in your browser to start exploring the Car Rental interface.
+3. Install the dependencies:
+```bash
+ npm install
+````
+
+4. Start the development server:
+
+```bash
+   npm start
+```
+
+Usage 🖥️
+After starting the development server, the application will be available at http://localhost:3000/. Open it in your browser to start exploring the Car Rental interface.
 
 Contributing 🤝
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -52,3 +65,7 @@ Contact 📧
 Your Name - George Nonis - georgenonis@gmail.com
 
 Project Link: https://github.com/your-username/car-rental
+
+```
+
+```
