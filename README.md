@@ -30,16 +30,15 @@ To get a local copy up and running follow these simple steps.
 
 2. Navigate to the project directory:
 
+```bash
+ cd car-rental
 ```
-   bash cd car-rental
-```
-
-````
 
 3. Install the dependencies:
+
 ```bash
  npm install
-````
+```
 
 4. Start the development server:
 
