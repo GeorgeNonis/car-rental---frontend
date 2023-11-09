@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/car-rental.git
+   git clone https://github.com/GeorgeNonis/car-rental---frontend.git
 
    ```
 
@@ -63,7 +63,7 @@ Distributed under the MIT License. See LICENSE for more information.
 Contact 📧
 Your Name - George Nonis - georgenonis@gmail.com
 
-Project Link: https://github.com/your-username/car-rental
+Project Link: https://github.com/GeorgeNonis/car-rental---frontend
 
 ```
 
